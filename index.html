@@ -1,20 +1,138 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#ff4b23"><title>TNDA｜找到你的團隊角色</title>
-<style>
-:root{--o:#ff4b23;--k:#11151b;--p:#fffaf3;--m:#716a64}*{box-sizing:border-box}body{margin:0;font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif;color:var(--k);background:var(--p)}button{font:inherit}.screen{display:none;min-height:100dvh}.on{display:flex}.pixel{image-rendering:pixelated}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.12em}.logo{width:38px;height:38px;object-fit:cover;border:2px solid currentColor}.home{background:var(--o);color:#fff;align-items:center}.home-grid{width:min(1080px,100%);margin:auto;padding:45px 6vw;display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center}.eyebrow{font-size:13px;font-weight:900;letter-spacing:.18em}.title{font-size:clamp(52px,8vw,104px);line-height:.92;letter-spacing:-.07em;margin:30px 0 24px}.title span{display:block;color:var(--k)}.lead{font-size:clamp(17px,2vw,21px);line-height:1.75}.pills{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0}.pill{border:2px solid;border-radius:99px;padding:8px 13px;font-weight:800}.primary{border:0;border-radius:3px;padding:16px 24px;background:var(--k);color:#fff;font-weight:900;box-shadow:7px 7px 0 #fff;cursor:pointer}.hero{aspect-ratio:1;display:grid;place-items:center;position:relative}.hero:before,.hero:after{content:"";position:absolute;inset:10%;border:3px solid #fff;transform:rotate(8deg)}.hero:after{inset:20%;border-color:var(--k);transform:rotate(-8deg)}.hero img{width:52%;position:relative;z-index:2;border:5px solid #fff;box-shadow:15px 15px 0 var(--k)}
-.quiz{background:#f4ece3;flex-direction:column}.top{padding:max(18px,env(safe-area-inset-top)) 5vw 18px;display:flex;justify-content:space-between;align-items:center;background:var(--p);border-bottom:1px solid #ddd}.back{border:0;background:none;font-weight:800;color:var(--m)}.quiz-main{width:min(820px,100%);margin:auto;padding:32px 20px 60px}.progress-row{display:flex;align-items:center;gap:14px}.progress{height:8px;background:#dacfc4;flex:1}.fill{height:100%;background:var(--o)}.count{font-weight:900}.phase{color:var(--o);font-size:13px;font-weight:900;letter-spacing:.14em;margin-top:38px}.question{font-size:clamp(28px,5vw,46px);line-height:1.25;letter-spacing:-.04em;margin:14px 0 32px}.answers{display:grid;gap:14px}.answer{background:#fff;border:2px solid var(--k);box-shadow:5px 5px 0 var(--k);padding:19px;text-align:left;display:flex;gap:16px;align-items:center;font-weight:800;cursor:pointer}.answer:hover,.answer.sel{background:var(--o);color:#fff}.idx{width:31px;height:31px;border:2px solid;display:grid;place-items:center;flex:none}
-.result{flex-direction:column}.result-head{background:var(--k);color:#fff;padding:max(22px,env(safe-area-inset-top)) 5vw 48px}.nav{display:flex;justify-content:space-between;align-items:center}.result-grid{width:min(1020px,100%);margin:42px auto 0;display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:center}.charbox{min-height:370px;display:grid;place-items:center;position:relative}.charbox:before{content:"";position:absolute;width:75%;aspect-ratio:1;border-radius:50%;background:var(--o)}.character{width:100%;max-height:375px;object-fit:contain;position:relative;filter:drop-shadow(12px 16px 0 #0008)}.type{color:var(--o);font-weight:900;letter-spacing:.15em}.rtitle{font-size:clamp(45px,7vw,80px);line-height:1;margin:15px 0;letter-spacing:-.06em}.role{font-size:clamp(24px,3vw,34px);font-weight:900}.summary{line-height:1.8;color:#ddd;font-size:17px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.actions .primary{box-shadow:6px 6px 0 var(--o)}.secondary{border:2px solid #fff;background:none;color:#fff;padding:14px 20px;font-weight:900}.body{width:min(1020px,100%);margin:auto;padding:45px 20px 75px;display:grid;grid-template-columns:1fr 1fr;gap:25px}.card{border:2px solid var(--k);background:#fff;padding:25px;box-shadow:7px 7px 0 var(--o)}.card h3{margin:0 0 16px;color:var(--o);font-size:13px;letter-spacing:.16em}.effect{font-size:27px;line-height:1.3;font-weight:900;margin:0}.radar-card{grid-row:span 2}.radar{width:100%}.tags{display:flex;gap:9px;flex-wrap:wrap}.tag{background:#f1e8df;border-radius:99px;padding:9px 12px;font-weight:800}.note{line-height:1.8}.fine{font-size:12px;color:#888}
-@media(max-width:700px){.home-grid,.result-grid,.body{grid-template-columns:1fr}.hero{order:-1;height:200px;aspect-ratio:auto}.hero img{width:145px}.title{margin-top:22px}.result-grid{gap:20px}.charbox{min-height:270px}.character{max-height:280px}.charbox:before{width:225px}.radar-card{grid-row:auto}.answer{padding:17px 15px}}
-</style></head><body><main>
-<section id="home" class="screen home on"><div class="home-grid"><div><div class="brand"><img class="logo pixel" src="assets/tnda-logo.jpg" alt="TNDA">TNDA ROLE QUEST</div><h1 class="title">找到你在<span>團隊中的力量</span></h1><p class="lead">六個合作情境，探索你在這一輪團隊合作中最常啟動的力量，解鎖專屬的九型職業角色。</p><div class="pills"><span class="pill">6 道情境題</span><span class="pill">約 2 分鐘</span><span class="pill">9 種角色</span></div><button class="primary" id="start">開始探索 →</button></div><div class="hero"><img class="pixel" src="assets/tnda-logo.jpg" alt="TNDA 標誌"></div></div></section>
-<section id="quiz" class="screen quiz"><header class="top"><div class="brand"><img class="logo pixel" src="assets/tnda-logo.jpg" alt="">TNDA</div><button class="back" id="back">← 上一題</button></header><div class="quiz-main"><div class="progress-row"><div class="progress"><div class="fill" id="fill"></div></div><span class="count" id="count"></span></div><div class="phase" id="phase"></div><h2 class="question" id="question"></h2><div class="answers" id="answers"></div></div></section>
-<section id="result" class="screen result"><div class="result-head"><div class="nav"><div class="brand"><img class="logo pixel" src="assets/tnda-logo.jpg" alt="">TNDA</div><span class="eyebrow">YOUR ROLE</span></div><div class="result-grid"><div class="charbox"><img id="character" class="character pixel" alt=""></div><div><div class="type" id="rtype"></div><h2 class="rtitle" id="rname"></h2><p class="role" id="role"></p><p class="summary" id="summary"></p><div class="actions"><button class="primary" id="restart">再測一次</button><button class="secondary" id="share">分享結果</button></div></div></div></div><div class="body"><article class="card"><h3>你在團隊的主要作用</h3><p class="effect" id="effect"></p></article><article class="card radar-card"><h3>六力雷達</h3><svg class="radar" id="radar" viewBox="0 0 420 390"></svg></article><article class="card"><h3>你的合作關鍵字</h3><div class="tags" id="tags"></div></article><article class="card"><h3>給這次合作的提醒</h3><p class="note" id="advice"></p><p class="fine">本測驗用於探索本輪合作傾向，不等同臨床或人格診斷。</p></article></div></section>
-</main><script>
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <title>TNDA 共創角色測驗｜第一階段原型</title>
+  <style>
+    :root{--orange:#ff4f2c;--black:#000;--white:#fff;--muted:#bcbcbc;--max:1120px;--edge:clamp(18px,5vw,58px)}
+    *{box-sizing:border-box}
+    html{background:var(--black);color:var(--white);font-family:"Noto Sans TC","Microsoft JhengHei",sans-serif}
+    body{margin:0;min-height:100svh;background:var(--black)}
+    button{font:inherit}
+    .screen{display:none;min-height:100svh}
+    .screen.active{display:block;animation:enter .35s ease both}
+    @keyframes enter{from{opacity:0;transform:translateY(10px)}}
+    .wrap{width:min(100%,var(--max));margin:auto;padding-left:var(--edge);padding-right:var(--edge)}
+    .topline{height:7px;background:var(--orange)}
+    .mast{display:flex;justify-content:space-between;align-items:center;padding-top:18px;font:700 11px/1.2 monospace;letter-spacing:.18em;text-transform:uppercase}
+    .mast span:last-child{color:var(--muted)}
+    .hero{display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(32px,6vw,88px);align-items:center;padding-top:clamp(54px,10vh,110px)}
+    .kicker{margin:0 0 18px;color:var(--orange);font:700 13px/1.4 monospace;letter-spacing:.2em}
+    h1{margin:0;font-size:clamp(52px,9.2vw,118px);line-height:.84;letter-spacing:-.06em;text-transform:uppercase}
+    h1 span{display:block;margin-top:20px;font-size:clamp(23px,3.4vw,43px);line-height:1.2;letter-spacing:.18em;color:var(--white)}
+    .lede{max-width:680px;margin:32px 0 0;font-size:clamp(17px,2vw,22px);font-weight:600;line-height:1.75}
+    .hero-mark{aspect-ratio:1;display:grid;place-items:center;background:var(--orange);clip-path:polygon(0 0,88% 0,100% 12%,100% 100%,12% 100%,0 88%)}
+    .hero-mark svg{width:74%;height:74%}
+    .specs{display:grid;grid-template-columns:repeat(3,1fr);margin:clamp(50px,8vh,90px) 0 32px;border-top:5px solid var(--white);border-bottom:1px solid #444}
+    .spec{padding:20px 10px 22px 0}
+    .spec b{display:block;font:700 clamp(26px,4vw,48px)/1 monospace;color:var(--orange)}
+    .spec span{display:block;margin-top:8px;font-size:13px;font-weight:700;letter-spacing:.12em}
+    .action{display:flex;gap:16px;align-items:center;padding-bottom:44px}
+    .btn{min-height:58px;padding:17px 28px;border:3px solid var(--orange);border-radius:0;background:var(--orange);color:var(--black);font-weight:900;letter-spacing:.14em;cursor:pointer}
+    .btn:hover,.btn:focus-visible{background:var(--white);border-color:var(--white)}
+    .btn.ghost{background:transparent;color:var(--white);border-color:var(--white)}
+    .note{font-size:12px;color:var(--muted);letter-spacing:.08em}
+
+    .qhead{position:sticky;top:0;z-index:3;background:#000;border-bottom:4px solid var(--orange)}
+    .qhead .wrap{display:flex;align-items:center;gap:18px;padding-top:16px;padding-bottom:16px}
+    .counter{font:700 20px/1 monospace;color:var(--orange)}
+    .progress{height:7px;flex:1;background:#333}.progress i{display:block;width:16.67%;height:100%;background:var(--orange)}
+    .qbrand{font:700 10px/1 monospace;letter-spacing:.14em}
+    .question{padding-top:clamp(44px,8vh,86px);padding-bottom:50px}
+    .qeyebrow{margin:0 0 16px;color:var(--orange);font:700 12px/1.4 monospace;letter-spacing:.18em}
+    .question h2{max-width:900px;margin:0 0 clamp(34px,6vh,64px);font-size:clamp(30px,5.5vw,58px);line-height:1.25}
+    .choices{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+    .choice{position:relative;min-height:230px;padding:26px 24px 62px;border:3px solid var(--white);border-radius:0;background:transparent;color:var(--white);text-align:left;font-size:clamp(18px,2vw,23px);font-weight:800;line-height:1.55;cursor:pointer}
+    .choice::after{content:attr(data-key);position:absolute;left:24px;bottom:22px;font:700 12px/1 monospace;letter-spacing:.18em;color:var(--orange)}
+    .choice:hover,.choice:focus-visible{background:var(--orange);border-color:var(--orange);color:var(--black)}
+    .choice:hover::after,.choice:focus-visible::after{color:var(--black)}
+    .backrow{margin-top:28px}
+
+    #result{background:var(--white);color:var(--black)}
+    #result .topline{background:var(--orange)}
+    #result .mast span:last-child{color:#666}
+    .result-hero{display:grid;grid-template-columns:minmax(280px,.72fr) 1.28fr;gap:clamp(30px,6vw,86px);align-items:center;padding-top:clamp(38px,7vh,74px)}
+    .sprite-window{position:relative;width:100%;aspect-ratio:1/1;overflow:hidden;background:#f2f2f2;border:6px solid var(--black);image-rendering:pixelated}
+    .sprite-window img{position:absolute;width:100%;height:100%;object-fit:contain;left:0;top:0;image-rendering:pixelated}
+    .typecode{font:900 clamp(54px,10vw,128px)/.8 monospace;letter-spacing:-.08em}
+    .typecode small{display:block;margin-bottom:22px;font:700 12px/1.2 monospace;letter-spacing:.2em;color:var(--orange)}
+    .result-title{margin:28px 0 0;font-size:clamp(34px,5vw,62px);line-height:1.15}
+    .result-title span{display:block;margin-top:10px;color:var(--orange)}
+    .tagline{margin:24px 0 0;font-size:clamp(18px,2vw,23px);font-weight:800;line-height:1.65}
+    .result-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,5vw,62px);margin-top:48px;padding:36px 0 50px;border-top:5px solid var(--black)}
+    .result-copy h3,.radar h3{margin:0 0 14px;font:900 13px/1.3 monospace;letter-spacing:.18em;color:var(--orange)}
+    .result-copy p{margin:0;font-size:18px;line-height:1.8;font-weight:650}
+    .role{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;margin-top:26px;background:var(--black);border:1px solid var(--black)}
+    .role div{padding:18px;background:var(--white)}
+    .role b{display:block;margin-bottom:6px;font-size:12px;color:var(--orange);letter-spacing:.1em}
+    .radar svg{width:100%;height:auto;display:block}
+    .result-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+    .prototype-label{position:fixed;right:0;bottom:0;z-index:9;padding:8px 12px;background:var(--orange);color:#000;font:900 10px/1 monospace;letter-spacing:.12em}
+
+    @media(max-width:760px){
+      .hero{grid-template-columns:1fr;padding-top:46px}.hero-mark{width:46vw;max-width:210px;grid-row:1}.hero-copy{grid-row:2}
+      .specs{margin-top:44px}.action{align-items:flex-start;flex-direction:column}.btn{width:100%}
+      .choices{grid-template-columns:1fr}.choice{min-height:0;padding:21px 20px 54px}
+      .result-hero{grid-template-columns:1fr;padding-top:28px}.sprite-window{width:min(76vw,370px);margin:auto}.result-grid{grid-template-columns:1fr}.typecode{margin-top:10px}
+      .qbrand{display:none}.mast{font-size:9px}
+    }
+  .role .wide{grid-column:1/-1}.role span{font-weight:800;line-height:1.5}.disclaimer{margin-top:18px!important;font-size:12px!important;color:#666}.share{color:#000!important;border-color:#000!important}.sprite-window img{object-fit:contain}.typecode b{font:inherit}.result-title span{display:block;color:var(--orange)}.choice .idx{display:block;margin-bottom:18px;color:var(--orange);font:700 12px monospace}.choice:hover .idx{color:#000}
+</style>
+</head>
+<body>
+  
+
+  <section class="screen active" id="home" aria-labelledby="home-title">
+    <div class="topline"></div>
+    <div class="wrap">
+      <header class="mast"><span>TNDA · 放視大賞</span><span>Co-create your role</span></header>
+      <main class="hero">
+        <div class="hero-copy">
+          <p class="kicker">TNDA CO-CREATION ROLE TEST</p>
+          <h1 id="home-title">Find Your<span>共創角色測驗</span></h1>
+          <p class="lede">面對合作、變動與未知，你最常啟動的是哪一種力量？六個情境，找出你的 TNDA 共創角色。</p>
+        </div>
+        <div class="hero-mark" aria-hidden="true">
+          <svg viewBox="0 0 100 100" fill="none" stroke="#000" stroke-width="8" stroke-linecap="square">
+            <path d="M18 22h64M50 22v60M22 50l28 32 28-32"/>
+          </svg>
+        </div>
+      </main>
+      <div class="specs" aria-label="測驗資訊">
+        <div class="spec"><b>06</b><span>情境題目</span></div>
+        <div class="spec"><b>09</b><span>共創角色</span></div>
+        <div class="spec"><b>01</b><span>你的力量</span></div>
+      </div>
+      <div class="action">
+        <button class="btn" id="start">開始測驗 →</button>
+        <span class="note">無需登入 · 約 1 分鐘 · 本測驗為合作傾向探索</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="screen" id="quiz" aria-labelledby="question">
+<header class="qhead"><div class="wrap"><span class="counter" id="count">01 / 06</span><span class="progress"><i id="fill"></i></span><span class="qbrand">TNDA ROLE TEST</span></div></header>
+<main class="wrap question"><p class="qeyebrow" id="phase"></p><h2 id="question"></h2><div class="choices" id="answers"></div><div class="backrow"><button class="btn ghost" id="back">← 上一題</button></div></main>
+</section>
+<section class="screen" id="result" aria-labelledby="rname"><div class="topline"></div><div class="wrap">
+<header class="mast"><span>TNDA · RESULT</span><span id="rtype">YOUR CO-CREATION ROLE</span></header><main>
+<div class="result-hero"><div class="sprite-window"><img id="character" alt=""></div><div><div class="typecode"><small>YOUR CO-CREATION ROLE</small><b id="typenum"></b></div><h2 class="result-title" id="rname"></h2><p class="tagline" id="summary"></p></div></div>
+<div class="result-grid"><div class="result-copy"><h3>ROLE PROFILE / 角色定位</h3><p id="effect"></p><div class="role"><div><b>職業角色</b><span id="role"></span></div><div><b>合作關鍵字</b><span id="tags"></span></div><div class="wide"><b>合作提醒</b><span id="advice"></span></div></div><p class="disclaimer">本測驗用於探索本輪合作傾向，不等同臨床或人格診斷。</p><div class="result-actions"><button class="btn" id="restart">重新測驗</button><button class="btn ghost share" id="share">分享結果</button></div></div><div class="radar"><h3>ABILITY MAP / 六軸能力</h3><svg id="radar" viewBox="0 0 420 390"></svg></div></div>
+</main></div></section>
+
+  <script>
+
 const B=[{q:"團體作業剛開始，大家都還沒講話。你會先做什麼？",a:[["先講出一個方向，讓大家有東西討論","action"],["先問每個人想做什麼","feeling"],["先把題目再看一遍，確認要解什麼","thinking"]]},{q:"進度落後了三天。",a:[["直接砍掉一些東西，先讓它動起來","action"],["先確認大家是否卡住","feeling"],["先找出到底是哪裡拖慢","thinking"]]},{q:"有人提出一個你沒想過的做法。",a:[["那就試試看，做了才知道","action"],["我想知道他為什麼這樣想","feeling"],["我想先知道這樣做有什麼後果","thinking"]]}];
 const Q={action:[["團隊吵起來時，你通常會？",[["把話講開",8],["讓雙方退一步",9],["指出該改的環節",1]]],["作品做出來，但還不夠好。",[["先推出去",8],["看多數意見",9],["再改一版",1]]],["合作中，你最不能忍受的是？",[["沒人動",8],["大家撕破臉",9],["明知有問題還將就",1]]]],feeling:[["隊友做得很吃力時，你會？",[["先分擔",2],["調快方法",3],["換個角度，讓事情更有趣",4]]],["作品要交了，你最在意？",[["有沒有幫到人",2],["有沒有好結果",3],["有沒有像我做的",4]]],["被怎麼稱讚，你最開心？",[["還好有你",2],["你做到了",3],["只有你做得出來",4]]]],thinking:[["遇到陌生題目時，你會？",[["先蒐集資料",5],["先想可能出錯的地方",6],["先試一條路",7]]],["團隊中的你，通常是？",[["關鍵時刻講重點",5],["提醒大家別遺漏",6],["一直丟出新點子",7]]],["計畫突然被打亂時，你會？",[["退開一步看全貌",5],["啟用 B 方案",6],["走一條別的路",7]]]]};
 const R={1:["改革者","鍊金術師","優化系統，讓作品更接近理想。","你看得見「還可以更好」的地方，習慣把混亂整理成標準，把模糊推向精準。",["原則清楚","品質把關","持續改善"],"區分必要修正與理想加分，讓進度與品質一起前進。",[2,4,5,1,4,2]],2:["助人者","牧師","支持與療癒，讓夥伴能繼續前進。","你敏銳察覺他人的需要，擅長補位與照顧氣氛，讓成員感到被接住。",["溫暖支持","主動補位","凝聚關係"],"照顧別人時，也把自己的需要說出來；清楚界線會讓善意走得更久。",[2,2,2,5,4,3]],3:["成就者","弓箭手","鎖定目標，加速團隊達成成果。","你能快速抓住目標與成功條件，把注意力集中在有效行動。",["目標導向","高效推進","成果意識"],"速度之外，也為團隊保留確認方向的時間。",[3,2,4,2,4,3]],4:["藝術家","吟遊詩人","改變場景，為團隊創造獨特視角。","你對感受與差異敏銳，能把個人觀點化成有辨識度的表達。",["美感直覺","獨特表達","情感深度"],"替創意設定可完成的邊界，讓別人真正看見它。",[3,5,2,4,2,2]],5:["觀察者","法師","找出弱點，用洞察破解複雜問題。","你習慣先退一步觀察，蒐集關鍵資訊，再在需要時給出精準判斷。",["深度觀察","理性分析","關鍵洞察"],"資訊永遠可以更多；當把握已足夠，就讓洞察提早加入行動。",[4,3,5,1,3,2]],6:["守衛者","騎士","預判風險，守住團隊的安全底線。","你對風險、責任和可靠度敏感，總能提前看到遺漏。",["風險意識","可靠守護","周全準備"],"先定義可接受風險，不必等到完全確定才前進。",[1,2,4,4,5,2]],7:["樂觀者","遊俠","打開未知路線，為團隊帶來新可能。","你對新鮮事物充滿能量，卡關時能快速找到另一條值得嘗試的路。",["好奇探索","彈性應變","創意點子"],"挑一條最值得的路走深，讓想像真正變成成果。",[5,4,2,4,2,1]],8:["挑戰者","戰士","打破障礙，推動團隊直接向前。","你相信直接行動，面對阻力不退縮，能快速站出來承擔。",["果斷行動","勇於承擔","直面挑戰"],"出手前多問一句，會讓你的力量帶著更多人前進。",[3,2,2,2,4,5]],9:["調解者","召喚師","化解衝突，讓不同力量重新合作。","你能理解多方立場、降低緊張並尋找共同點。",["包容理解","穩定氣氛","整合觀點"],"維持和平不代表隱藏立場；清楚說出重視的事，能讓共識更穩固。",[3,3,3,5,2,2]]};
 let s=0,A=[],F;const $=x=>document.querySelector(x),show=x=>{document.querySelectorAll(".screen").forEach(e=>e.classList.toggle("on",e.id==x));scrollTo(0,0)},maj=(v,f)=>{let c={};v.forEach(x=>c[x]=(c[x]||0)+1);let m=Math.max(...Object.values(c)),w=Object.keys(c).filter(x=>c[x]==m);return w.length==1?(typeof v[0]=="number"?+w[0]:w[0]):f};
-function render(){F=s>=3?maj(A.slice(0,3),A[2]):null;let d=s<3?B[s]:{q:Q[F][s-3][0],a:Q[F][s-3][1]};$("#count").textContent=s+1+" / 6";$("#fill").style.width=(s+1)/6*100+"%";$("#phase").textContent=s<3?"PHASE 01 · 你的合作驅動":"PHASE 02 · 你的角色傾向";$("#question").textContent=d.q;$("#back").style.visibility=s?"visible":"hidden";$("#answers").innerHTML="";d.a.forEach((a,i)=>{let b=document.createElement("button");b.className="answer";b.innerHTML='<span class="idx">'+String.fromCharCode(65+i)+'</span><span>'+a[0]+"</span>";b.onclick=()=>{b.classList.add("sel");A[s]=a[1];A=A.slice(0,s+1);setTimeout(()=>s<5?(s++,render()):result(maj(A.slice(3),A[5])),140)};$("#answers").append(b)})}
-function result(t){let r=R[t];$("#character").src="assets/type-"+t+".png";$("#character").alt=r[0]+"－"+r[1]+"角色全身圖";$("#rtype").textContent="TYPE "+t+" · 本輪合作角色";$("#rname").textContent=r[0];$("#role").textContent=r[1];$("#effect").textContent=r[2];$("#summary").textContent=r[3];$("#tags").innerHTML=r[4].map(x=>'<span class="tag">'+x+"</span>").join("");$("#advice").textContent=r[5];radar(r[6]);show("result");document.title="我是 TNDA "+r[0]+"－"+r[1];$("#share").onclick=async()=>{let d={title:document.title,text:"我的 TNDA 團隊角色是 Type "+t+" "+r[0]+"－"+r[1]+"！",url:location.href};try{navigator.share?await navigator.share(d):await navigator.clipboard.writeText(d.text+" "+d.url)}catch(e){}}}
+function render(){F=s>=3?maj(A.slice(0,3),A[2]):null;let d=s<3?B[s]:{q:Q[F][s-3][0],a:Q[F][s-3][1]};$("#count").textContent=s+1+" / 6";$("#fill").style.width=(s+1)/6*100+"%";$("#phase").textContent=s<3?"PHASE 01 · 你的合作驅動":"PHASE 02 · 你的角色傾向";$("#question").textContent=d.q;$("#back").style.visibility=s?"visible":"hidden";$("#answers").innerHTML="";d.a.forEach((a,i)=>{let b=document.createElement("button");b.className="choice";b.innerHTML='<span class="idx">'+String.fromCharCode(65+i)+'</span><span>'+a[0]+"</span>";b.onclick=()=>{b.classList.add("sel");A[s]=a[1];A=A.slice(0,s+1);setTimeout(()=>s<5?(s++,render()):result(maj(A.slice(3),A[5])),140)};$("#answers").append(b)})}
+function result(t){let r=R[t];$("#character").src="assets/type-"+t+".png";$("#character").alt=r[0]+"－"+r[1]+"角色全身圖";$("#rtype").textContent="本輪合作角色 / TYPE "+t;$("#typenum").textContent="TYPE "+t;$("#rname").innerHTML=r[0]+"<span>"+r[1]+"</span>";$("#role").textContent=r[1];$("#effect").textContent=r[2];$("#summary").textContent=r[3];$("#tags").innerHTML=r[4].map(x=>'<span class="tag">'+x+"</span>").join("");$("#advice").textContent=r[5];radar(r[6]);show("result");document.title="我是 TNDA "+r[0]+"－"+r[1];$("#share").onclick=async()=>{let d={title:document.title,text:"我的 TNDA 團隊角色是 Type "+t+" "+r[0]+"－"+r[1]+"！",url:location.href};try{navigator.share?await navigator.share(d):await navigator.clipboard.writeText(d.text+" "+d.url)}catch(e){}}}
 function radar(v){let L=["探索","創造","分析","連結","執行","創業"],cx=210,cy=190,R=130,P=a=>a.map((n,i)=>{let q=-Math.PI/2+i*Math.PI/3,r=R*n/5;return cx+Math.cos(q)*r+","+(cy+Math.sin(q)*r)}).join(" "),h="";for(let n=1;n<=5;n++)h+='<polygon points="'+P(Array(6).fill(n))+'" fill="none" stroke="#d9ccc0"/>';h+=L.map((l,i)=>{let q=-Math.PI/2+i*Math.PI/3,x=cx+Math.cos(q)*R,y=cy+Math.sin(q)*R;return '<line x1="'+cx+'" y1="'+cy+'" x2="'+x+'" y2="'+y+'" stroke="#ddd"/><text x="'+(cx+Math.cos(q)*(R+32))+'" y="'+(cy+Math.sin(q)*(R+32)+5)+'" text-anchor="middle" font-size="14" font-weight="800">'+l+"</text>"}).join("")+'<polygon points="'+P(v)+'" fill="#ff4b2366" stroke="#ff4b23" stroke-width="4"/>';$("#radar").innerHTML=h}
 $("#start").onclick=()=>{s=0;A=[];show("quiz");render()};$("#back").onclick=()=>{if(s){s--;A=A.slice(0,s);render()}};$("#restart").onclick=()=>{document.title="TNDA｜找到你的團隊角色";show("home")};
-</script></body></html>
+
+</script>
+</body>
+</html>
