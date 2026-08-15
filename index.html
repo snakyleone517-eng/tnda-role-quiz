@@ -24,7 +24,7 @@
     h1 span{display:block;margin-top:20px;font-size:clamp(23px,3.4vw,43px);line-height:1.2;letter-spacing:.18em;color:var(--white)}
     .lede{max-width:680px;margin:32px 0 0;font-size:clamp(17px,2vw,22px);font-weight:600;line-height:1.75}
     .hero-mark{aspect-ratio:1;display:grid;place-items:center;background:var(--orange);clip-path:polygon(0 0,88% 0,100% 12%,100% 100%,12% 100%,0 88%)}
-    .hero-mark svg{width:74%;height:74%}
+    .hero-mark img{width:100%;height:100%;object-fit:cover;display:block}
     .specs{display:grid;grid-template-columns:repeat(3,1fr);margin:clamp(50px,8vh,90px) 0 32px;border-top:5px solid var(--white);border-bottom:1px solid #444}
     .spec{padding:20px 10px 22px 0}
     .spec b{display:block;font:700 clamp(26px,4vw,48px)/1 monospace;color:var(--orange)}
@@ -87,18 +87,14 @@
   <section class="screen active" id="home" aria-labelledby="home-title">
     <div class="topline"></div>
     <div class="wrap">
-      <header class="mast"><span>TNDA · 放視大賞</span><span>Co-create your role</span></header>
+      <header class="mast"><span>Taiwan Next Design Alliance</span><span>Co-create your role</span></header>
       <main class="hero">
         <div class="hero-copy">
           <p class="kicker">TNDA CO-CREATION ROLE TEST</p>
           <h1 id="home-title">Find Your<span>共創角色測驗</span></h1>
           <p class="lede">面對合作、變動與未知，你最常啟動的是哪一種力量？六個情境，找出你的 TNDA 共創角色。</p>
         </div>
-        <div class="hero-mark" aria-hidden="true">
-          <svg viewBox="0 0 100 100" fill="none" stroke="#000" stroke-width="8" stroke-linecap="square">
-            <path d="M18 22h64M50 22v60M22 50l28 32 28-32"/>
-          </svg>
-        </div>
+        <div class="hero-mark"><img src="assets/tnda-home-logo.jpg" alt="TNDA Logo"></div>
       </main>
       <div class="specs" aria-label="測驗資訊">
         <div class="spec"><b>06</b><span>情境題目</span></div>
